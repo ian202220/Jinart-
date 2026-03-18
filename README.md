@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!JINART>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -104,11 +104,15 @@
         <div class="header" id="nav-title">常見問題</div>
 
         <div class="menu-list" id="main-menu">
-            <div class="menu-item" onclick="openPage('出貨時間', '本商店商品皆為現貨，下單後約 2-3 個工作天出貨。')">出貨時間</div>
-            <div class="menu-item" onclick="openPage('訂單問題', '您可以透過會員中心查詢訂單進度，若有異常請聯繫客服。')">訂單問題</div>
-            <div class="menu-item" onclick="openPage('預購說明', '預購商品通常需要 14-21 個工作天，請耐心等候。')">預購說明</div>
-            <div class="menu-item" onclick="openPage('退換貨政策', '提供 7 天鑑賞期，請保持商品包裝完整即可辦理。')">退換貨政策</div>
-            <div class="menu-item" onclick="openPage('客服聯絡方式', 'Line 客服：@shop_helper<br>服務時間：10:00 - 18:00')">客服聯絡方式</div>
+            <div class="menu-item" onclick="openPage('出貨時間', '現貨商品，完成下單後將於 5-7 個工作天出貨。
+不是現貨商品則需3-4個月工作天製作(不含國定假日) 
+若同時購買訂製或預購商品，將待商品到齊後一起出貨。如想先收到現貨商品，麻煩請分開下單~
+')">出貨時間</div>
+            <div class="menu-item" onclick="openPage('訂單問題', '您好～若您有訂單相關問題，歡迎提供訂購人姓名、Email 與訂單編號，並私訊我們的官方 IG，我們將協助您處理，謝謝您')">訂單問題</div>
+            <div class="menu-item" onclick="openPage('預購說明', '您好～ 預購出貨月為預估值，可能會因為生產/船運/品管/貨運等因素提早或延期發貨， 不好意思造成您的不便，謝謝您的支持
+')">預購說明</div>
+            <div class="menu-item" onclick="openPage('退換貨政策', '【退換貨說明】請於出貨日起 15 天內聯繫客服。商品需保持完整包裝，非官方瑕疵或拆封損壞恕不退換。開箱請全程錄影，未提供完整影片不受理退換貨。個人取消訂單將扣手續費 2% 及保證金 5%。公仔／玩具塗裝問題 15 天內可依認證卡申請免費維修一次（寄回運費由消費者先付，若官方瑕疵則退回）。盲盒中盒重複屬廠商裝盒問題。')">退換貨政策</div>
+            <div class="menu-item" onclick="openPage('客服聯絡方式', 'instagram 客服:(https://www.instagram.com/jinart2018/)服務時間：09:30 - 17:00')">客服聯絡方式</div>
         </div>
 
         <div class="content-view" id="detail-page">
