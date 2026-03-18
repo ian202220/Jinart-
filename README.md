@@ -7,23 +7,24 @@
     <style>
         /* 基礎設定：確保全螢幕且無邊距 */
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-        
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            background: #ffffff; 
-            margin: 0; 
+
+        /* 改動：body 改用 min-height 100%，移除 100vh */
+        html, body {
+            margin: 0;
             padding: 0;
-            display: flex; 
-            justify-content: center; 
-            height: 100vh;
-            overflow: hidden; 
+            height: 100%;
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
         }
 
-        /* 應用程式主容器：手機上 100% 填滿 */
+        /* 應用程式主容器：手機全螢幕，電腦最大寬度 500px */
         .app-container { 
             width: 100%; 
             max-width: 500px; /* 電腦版最大寬度限制 */
-            height: 100vh;
+            min-height: 100%;
             background: #f7f7f9; 
             position: relative;
             display: flex;
