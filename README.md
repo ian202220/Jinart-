@@ -35,11 +35,14 @@ body {
     background: linear-gradient(135deg, #ff4d4d, #ff6b6b);
     color: white;
     text-align: center;
-    padding: 14px;
-    border-radius: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 20px rgba(255,77,77,0.3);
+    padding: 18px; /* ← 變大 */
+    border-radius: 26px; /* ← 更圓 */
+    font-weight: 700;
+    font-size: 16px; /* ← 字變大 */
+    margin-bottom: 24px;
+    box-shadow: 
+        0 10px 25px rgba(255,77,77,0.35),
+        inset 0 1px 0 rgba(255,255,255,0.3); /* ← 更立體 */
 }
 
 /* page */
